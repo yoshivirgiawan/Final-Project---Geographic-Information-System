@@ -1,0 +1,66 @@
+.header-container {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 998;
+}
+
+.header-container .header {
+    position: relative;
+    z-index: 997;
+    box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.08);
+    font-size: 16px;
+    background-color: #fff;
+}
+
+.logo-navbar {
+    cursor: pointer;
+}
+
+.logo-name {
+    font-size: 24px;
+    color: #000000;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.navbar-content li {
+    cursor: pointer;
+    transition: .3s ease-out;
+}
+
+.navbar-content li a {
+    color: #666;
+}
+
+.navbar-content .active {
+    color: #2a41e8;
+}
+
+.navbar-content li a:hover {
+    color: #2a41e8;
+}
+
+.navbar-content li:not(:last-child) {
+    margin-right: 24px;
+}
+
+.hamburger-menu {
+    cursor: pointer;
+    display: none;
+    color: #666;
+}
+
+.hamburger-menu:hover {
+    color: #2a41e8;
+}
+
+@media(max-width: 768px) {
+    .navbar-content {
+        display: none !important;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+}

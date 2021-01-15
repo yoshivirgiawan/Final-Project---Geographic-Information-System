@@ -1,0 +1,237 @@
+.detail-jobs-header {
+    margin-bottom: 65px;
+    padding: 60px 0;
+    position: relative;
+}
+
+.detail-jobs-header .detail-jobs-container {
+    z-index: 100;
+    position: relative;
+}
+
+.detail-jobs-header:after, .detail-jobs-header:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 15;
+    background: linear-gradient(to right,rgba(247,247,247,1) 50%,rgba(247,247,247,0.6) 70%,rgba(247,247,247,0.4) 90%);
+}
+
+.detail-jobs-container:before {
+    content: " ";
+    display: flex;
+}
+
+.detail-jobs-header .left-side {
+    padding-right: 30px;
+}
+
+.detail-jobs-header .left-side, .detail-jobs-header .right-side {
+    display: flex;
+    align-items: center;
+}
+
+.detail-jobs-header .header-image {
+    height: 140px;
+    flex: 0 0 140px;
+    margin-right: 35px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+    display: flex;
+    padding: 0 20px;
+}
+
+.detail-jobs-header .header-image img {
+    align-self: center;
+    transform: translate3d(0,0,0);
+    max-width: 100%;
+}
+
+.detail-jobs-header .header-details {
+    flex: 1;
+}
+
+.detail-jobs-header .header-details h3 {
+    color: #333;
+    font-size: 26px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 12px;
+    margin-top: 3px;
+    line-height: 36px;
+    position: relative;
+    padding-right: 0;
+    display: inline-block;
+}
+
+.detail-jobs-header .header-details h5 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+.header-details-footer {
+    white-space: nowrap;
+    margin-right: 30px;
+}
+
+.detail-jobs-header .header-details li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 12px;
+}
+
+.icon-header-details {
+    font-size: 20px;
+    position: relative;
+    top: -3px;
+    margin-right: 5px;
+}
+
+.detail-jobs-header .salary-box {
+    border-radius: 4px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+    background-color: #fff;
+    display: inline-block;
+    padding: 20px 25px;
+    margin-left: auto;
+}
+
+.salary-box .salary-type {
+    color: #888;
+    line-height: 20px;
+    margin: 3px 0 8px 0;
+}
+
+.salary-box .salary-amount {
+    color: #333;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 300;
+    white-space: nowrap;
+}
+
+.detail-jobs-header .background-image-container {
+    background-image: url('../images/single-job.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+    left: 50%;
+    z-index: 10;
+}
+
+.single-page-section {
+    margin-bottom: 55px;
+    display: block;
+}
+
+.apply-now-button {
+    box-shadow: 0 2px 8px rgba(42,65,232,0.15);
+}
+
+.apply-now-button {
+    background-color: #2a41e8;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 4px;
+    padding: 14px 20px;
+    margin-bottom: 35px;
+    box-shadow: 0 2px 8px rgba(102,103,107,0.15);
+    transition: 0.3s;
+    display: block;
+    cursor: pointer;
+}
+
+.location-now-button {
+    color: #737373;
+    background-color: #f0f0f0;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 4px;
+    padding: 14px 20px;
+    margin-bottom: 35px;
+    transition: 0.3s;
+    display: block;
+    cursor: pointer;
+}
+
+.location-now-button a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #737373;
+}
+
+.sidebar-widget {
+    margin-bottom: 50px;
+    display: block;
+}
+
+.job-overview {
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.job-overview .job-overview-headline {
+    color: #333;
+    font-size: 20px;
+    padding: 20px 35px;
+    background-color: #f0f0f0;
+    color: #333;
+    position: relative;
+    border-radius: 4px 4px 0 0;
+}
+
+.job-overview .job-overview-inner {
+    padding: 35px;
+}
+
+.job-overview .job-overview-inner ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.job-overview .job-overview-inner ul li {
+    position: relative;
+    display: block;
+    font-size: 16px;
+    padding-left: 38px;
+    margin-bottom: 25px;
+}
+
+.icon-sidebar-widget {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 24px;
+    color: #66676b;
+}
+
+.job-overview .job-overview-inner ul li span {
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.job-overview .job-overview-inner ul li h5 {
+    font-weight: 500;
+    color: #666;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+}

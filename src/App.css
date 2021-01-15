@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif !important;
+    color: #666;
+    font-size: 16px;
+    line-height: 27px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.font-size-24 {
+    font-size: 24px;
+}
+
+.color-black {
+    color: #000000;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+ul li {
+    list-style: none;
+}
+
+.jobs-list-container {
+    padding-top: 65px;
+    padding-bottom: 75px;
+}
+
+.jobs-container {
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    border-radius: 3px;
+}
+
+.jobs-container .listjobs-container:nth-child(2n) {
+    background: #fafafa;
+}
+
+.jobs-container .listjobs-container:first-of-type {
+    border-radius: 3px 3px 0 0;
+}
+
+.jobs-container .listjobs-container:last-of-type {
+    border-radius: 0 0 3px 3px;
+}
+
+.jobs-title span a {
+    color: #2a41e8;
+    cursor: pointer;
+}
+
+.jobs-title span:hover a {
+    color: #66676b;
+    transition: 0.3s;
+}

@@ -1,0 +1,303 @@
+.footer-container {
+    background-color: #303030;
+    color: #c0c0c0;
+}
+
+.footer-top-container {
+    border-bottom: 1px solid #484848;
+}
+
+.footer-top-content {
+    padding: 20px 0;
+}
+
+.logo-name-footer {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.sosmed-content-container {
+    padding: 0 40px;
+}
+
+.sosmed-content-container ul li {
+    cursor: pointer;
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.sosmed-content-container ul li:hover {
+    color: #ffffff;
+}
+
+.language-content-container button {
+    position: relative;
+    display: block;
+    height: 44px;
+    padding-right: 35px;
+    padding-left: 18px;
+    color: #fff;
+    background-color: #444;
+    transition: 0.3s;
+    box-shadow: none;
+    line-height: 0;
+    margin: 0;
+    outline: none;
+    font-size: 16px;
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    font-weight: 500;
+    opacity: 1;
+    border-radius: 4px;
+    border: none;
+}
+
+.language-content-container button span {
+    position: absolute;
+    top: 14px;
+    right: 10px;
+}
+
+.list-dropdown-language {
+    min-width: 100%;
+    font-size: 16px;
+    padding-top: 15px;
+    top: calc(100% + 15px);
+    width: 160px;
+    left: auto;
+    right: 0;
+    opacity: 0;
+    transition: 0.4s;
+    display: block;
+    visibility: hidden;
+    color: #808080;
+    z-index: 1000;
+    padding: 10px 15px;
+    margin: -4px 0 0 0;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.12);
+}
+
+.list-dropdown-language.open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.list-dropdown-language ul li {
+    margin: 5px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    padding: 7px 10px;
+    padding-right: 35px;
+    font-weight: normal;
+    line-height: 21px;
+    transition: 0.3s;
+}
+
+.list-dropdown-language ul li:hover {
+    background-color: rgba(102,103,107,0.07);
+    color: #007bff;
+}
+
+.list-dropdown-language ul li:hover .list-dropdown-language ul li.selected {
+    background-color: #fff;
+    color: #808080;
+}
+
+.list-dropdown-language ul li.selected {
+    background-color: rgba(102,103,107,0.1);
+    color: #007bff;
+    font-weight: bold;
+}
+
+.footer-mid-container {
+    padding: 60px 0;
+    border-bottom: 1px solid #484848;
+}
+
+.footer-menus h3 {
+    font-size: 18px;
+    color: #fff;
+    margin: 0 0 15px 0;
+    padding: 0;
+    display: block;
+}
+
+.footer-menus ul li {
+    cursor: pointer;
+    color: #c0c0c0;
+    display: block;
+    line-height: 25px;
+    position: relative;
+    z-index: 100;
+    padding: 4px 0;
+}
+
+.footer-menus ul li span {
+    display: inline-block;
+    position: relative;
+}
+
+.footer-menus ul li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #253cec;
+    height: 2px;
+    display: block;
+    transition: all 0.25s, opacity 0.2s;
+    z-index: -1;
+    border-radius: 3px;
+    opacity: .5;
+    width: 0;
+}
+
+.footer-menus ul li:hover span {
+    color: #ffffff;
+}
+
+.footer-menus ul li:hover span::after {
+    opacity: 1;
+    width: 100%;
+}
+
+.email-content {
+    width: 33.33%;
+}
+
+.email-content h3 {
+    font-size: 18px;
+    color: #fff;
+    margin: 0 0 15px 0;
+    padding: 0;
+    display: block;
+}
+
+.email-content h3 span {
+    font-size: 24px;
+    position: relative;
+    margin-right: 10px;
+    top: 0;
+    font-weight: 400 !important;
+}
+
+.email-content p {
+    line-height: 26px;
+}
+
+.form-email {
+    display: flex;
+    margin-top: 20px;
+}
+
+.form-email input {
+    background: #262626;
+    box-shadow: none;
+    margin-bottom: 0;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 20px;
+    outline: none;
+    font-size: 16px;
+    color: #808080;
+    margin: 0 0 16px 0;
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    font-weight: 500;
+    opacity: 1;
+    border-radius: 4px;
+    border: none;
+}
+
+.form-email button {
+    background-color: #2a41e8;
+    border-radius: 4px;
+    height: 48px;
+    min-width: 48px;
+    text-align: center;
+    line-height: 48px;
+    font-size: 18px;
+    color: #fff;
+    margin-left: 10px;
+    transition: 0.3s;
+    border: none;
+    width: auto;
+    overflow: visible;
+    font: inherit;
+    cursor: pointer;
+}
+
+.form-email button:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.form-email button:active {
+    transform: scale(.9);
+    border: none;
+    outline: none;
+}
+
+.form-email button:focus {
+    border: none;
+    outline: none;
+}
+
+.footer-bottom-container {
+    padding: 25px 0;
+}
+
+@media(max-width: 768px) {
+    .footer-top-left-content {
+        width: 100%;
+        padding: 20px 0 0 0;
+    }
+
+    .footer-top-right-content {
+        display: block !important;
+        width: 100%;
+    }
+
+    .sosmed-content-container {
+        padding: 20px 0 0 0;
+        display: block;
+        width: 100%;
+    }
+
+    .language-content-container {
+        padding: 20px 0 0 0;
+        display: block;
+        width: 100%;
+    }
+
+    .language-content-container button {
+        width: 100%;
+    }
+    
+    .sosmed-content-container ul {
+        justify-content: flex-start !important;
+    }
+
+    .language-content-container button {
+        text-align: left;
+    }
+
+    .footer-menus-container {
+        display: block !important;
+    }
+
+    .footer-menus-container .email-content {
+        width: 100%;
+        margin-top: 40px;
+    }
+}

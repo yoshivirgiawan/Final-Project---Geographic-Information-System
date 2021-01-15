@@ -1,0 +1,192 @@
+.background-white {
+    background-color: #fff;
+}
+
+.bottom-0 {
+    bottom: 0;
+}
+
+.sidebar-maps {
+    border-radius: 5px;
+    max-height: calc(100vh - 70px);
+    overflow-y: scroll;
+}
+
+.sidebar-maps-inner-container {
+    position: relative;
+    z-index: 999;
+    opacity: 0;
+}
+
+.sidebar-maps-inner-container.opened {
+    opacity: 1;
+}
+/* 
+/* width */
+/* ::-webkit-scrollbar {
+    width: 10px;
+  } */
+  
+  /* Track */
+  /* ::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  } */
+   
+  /* Handle */
+  /* ::-webkit-scrollbar-thumb {
+    background: #d8d8d8;
+    border-radius: 10px;
+  } */
+  
+  /* Handle on hover */
+  /* ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }  */
+
+.back-button-container {
+    position: sticky;
+    top: 15px;
+    padding-right: 15px;
+    height: 0;
+}
+
+.back-button {
+    background-color: #333;
+    color:  #fff;
+    height: 48px;
+    width: 48px;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #333;
+}
+
+.sidebar-maps-inner-header {
+    padding: 15px 0;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 65px;
+    background-color: #f7f7f7;
+}
+
+.sidebar-maps-header-inner {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.sidebar-maps-header-inner-content {
+    display: block;
+    max-width: 100%;
+    flex: 1;
+    align-items: center;
+}
+
+.sidebar-image-container {
+    height: 70px;
+    width: auto;
+    padding: 15px 20px;
+    margin: 15px 0;
+    display: inline-block;
+    flex: 0 0 120px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+}
+
+.sidebar-image-container img {
+    height: 100%;
+}
+
+.sidebar-details-content {
+    flex: 1;
+}
+
+.sidebar-details-content h3 {
+    color: #333;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 12px;
+    margin-top: 3px;
+    line-height: 36px;
+    position: relative;
+    padding-right: 0;
+}
+
+.sidebar-details-content h5 {
+    border-top: 1px solid #e0e0e0;
+    padding-top: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+.sidebar-details-content ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    line-height: 24px;
+}
+
+.sidebar-details-content ul li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 12px;
+}
+
+.salary-container {
+    display: block;
+    max-width: 100%;
+    flex: 1;
+    align-items: center;
+}
+
+.salary-wrapper {
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.salary-wrapper h5 {
+    font-weight: 600;
+    color: #333;
+    line-height: 20px;
+    margin: 3px 0 8px 0;
+    font-size: 16px;
+}
+
+.salary-wrapper h3 {
+    font-size: 22px;
+    line-height: 24px;
+    color: #333;
+    font-weight: 300;
+}
+
+.job-description-container {
+    margin-bottom: 55px;
+    display: block;
+}
+
+.job-description-container h3 {
+    font-size: 20px;
+    margin-bottom: 25px;
+    color: #333;
+    font-weight: 500;
+}
+
+.job-description-container p {
+    font-size: 16px;
+    line-height: 27px;
+}

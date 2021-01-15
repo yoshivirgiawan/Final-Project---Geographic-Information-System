@@ -1,0 +1,45 @@
+.sidebar-maps-container {
+    padding: 35px;
+    padding-top: 70px;
+    position: absolute;
+    height: 100%;
+    z-index: 996;
+    left: -100%;
+    transition: .3s ease-in-out;
+}
+
+.sidebar-maps-container.opened {
+    left: 0;
+}
+
+.sidebar-maps {
+    width: 600px;
+    height: 100%;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 16px 2px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+}
+
+.hamburger-menu-maps {
+    background-color: #2a41e8;
+    color: #FFFFFF;
+    position: fixed;
+    top: 15px;
+    left: 35px;
+    height: 48px;
+    z-index: 999;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.hamburger-menu-maps:hover {
+    background-color: #333;
+}
+
+.jobs-container.closed {
+    display: none;
+}

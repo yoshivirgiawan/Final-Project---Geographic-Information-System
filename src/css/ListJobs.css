@@ -1,0 +1,104 @@
+.listjobs-container {
+    background: #ffffff;
+    position: relative;
+    overflow: hidden;
+}
+
+.listjobs-wrapper{
+    cursor: pointer;
+    position: relative;
+}
+
+.listjobs-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    display: block;
+    background:  #2a41e8;
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.listjobs-wrapper:hover::before {
+    opacity: 1;
+}
+
+.listjobs-wrapper:hover .list-details-button-select {
+    background-color: #2a41e8;
+}
+
+.listjobs-wrapper:hover .list-details-button-select a {
+    color: white;
+}
+
+.listjobs-wrapper:hover .list-details-button-select {
+    color: white;
+}
+
+.logo-list {
+    position: relative;
+    flex: 1;
+    max-width: 50px;
+    margin-right: 30px;
+}
+
+.logo-list img {
+    width: 50px;
+    height: 50px;
+}
+
+.list-details{
+    flex: 1;
+}
+
+.list-details-title{
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.job-list-footer-details{
+    color: #666;
+    font-size: 16px;
+    line-height: 27px;
+    margin-right: 14px;
+}
+
+.list-details-button {
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.list-details-button-select{
+    color: #737373;
+    background-color: #f0f0f0;
+    border: none;
+    padding: 10px 20px;
+}
+
+.list-details-button-select a{
+    color: #737373;
+}
+
+@media(max-width : 768px){
+    .list-jobs {
+        flex-wrap: wrap;
+    }
+    .job-list-footer ul {
+        flex-wrap: wrap;
+    }
+    
+    .list-details-button {
+        margin-top: 15px;
+        width: 100%;
+        flex: auto;
+    }
+
+    .list-details-button-select {
+        width: 100%;
+    }
+}
+
